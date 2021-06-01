@@ -1,6 +1,8 @@
 # ultraergo
 QMK keyboard definition for the apparently discontinued ultraergo split wireless keyboard.
 
+![](finished.jpg)
+
 The most sane keyboard design I have ever seen was on the market for only a year or two before mysteriously disappearing.
 
 Eventually the wireless connection on mine became flaky and unusable, so I converted it into two independently wired keyboards using the QMK firmware.
