@@ -1,7 +1,7 @@
 # ultraergo
 QMK keyboard definition for the apparently discontinued ultraergo split wireless keyboard.
 
-![](https://github.com/thennen/ultraergo/finished.jpg)
+![](https://raw.githubusercontent.com/thennen/ultraergo/master/finished.jpeg)
 
 The most sane keyboard design I have ever seen was on the market for only a year or two before mysteriously disappearing.
 
