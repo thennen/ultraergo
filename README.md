@@ -11,6 +11,8 @@ I reused the existing USB mini charging ports for the data connections and rewir
 
 This was successful but involved a non-trivial amount of wiring and reverse engineering.
 
+![](https://raw.githubusercontent.com/thennen/ultraergo/master/wiring1.jpeg)
+
 Chances of anyone out there owning this keyboard and also wanting to do this is approximately zero.
 
 To compile and flash this you need to install a 4 GB monstrosity called QMK MSYS.
