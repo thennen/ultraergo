@@ -26,17 +26,23 @@ To compile and flash this you need to install a 4 GB monstrosity called QMK MSYS
 put ultraergo folder inside %userprofile%\qmk_firmware\keyboards\
 
 qmk wants to use its own python installation e.g. c:\qmk_msys\mingw64\lib\python3.8
-
-I didn't bother to figure out how to autodetect left and right sides since C is a lousy language and QMK is just a horrifying project.
+so:
 
 unset PYTHONHOME
 unset PYTHONPATH
+
+I didn't bother to figure out how to autodetect left and right sides since C is a lousy language and QMK is just a horrifying project.
+
+to compile:
+
 qmk compile -kb ultraergo -km left_hennen
 
-this dumps a hex file \qmk_firmware\ultraergo_left_hennen.hex
+this dumps a hex file %userprofile%\qmk_firmware\ultraergo_left_hennen.hex, which can be flashed with qmk_toolbox.exe
 
-qmk_toolbox.exe helps with flashing because it says when the device is ready/in bootloader mode.
+to compile and flash:
 
-press reset button twice and press flash in the 2 second window of opportunity
-alternate way to get into bootloader mode is this:
-avrdude -P COM5 -p ATmega32u4 -c avr109 -b1200
+qmk flash -kb ultraergo -km left_hennen
+
+which will prompt you to put the keyboard into bootloader mode.
+press reset button twice for bootloader mode.
+alternatively: avrdude -P COM5 -p ATmega32u4 -c avr109 -b1200
