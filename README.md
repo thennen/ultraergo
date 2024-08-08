@@ -9,7 +9,7 @@ Eventually the wireless connection became flaky and unusable, so I converted it 
 
 ![](https://raw.githubusercontent.com/thennen/ultraergo/master/wiring1.jpeg)
 
-Another benefit of doing this is that you can remap the left and right halves of the spacebar independently, which was impossible with the original board.  I use the left side for the Enter key, which has been great.
+Another benefit of doing this is that you can remap the left and right halves of the spacebar independently, which was impossible with the original board.  I remap the right half to the Enter key, which has been great.
 
 Independent left/right sides means you can't do hardware level layers/combinations that involve both halves. But this is much easier to handle at the OS level anyway, for example by using the great (but not free) program KbdEdit.
 
